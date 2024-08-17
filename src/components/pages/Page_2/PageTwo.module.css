@@ -1,0 +1,274 @@
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../../../assets/fonts/MyriadPro/MyriadPro-Light.otf") format("otf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.PageTwo__text {
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  padding: 30px;
+}
+
+.PageTwo__p {
+  padding-bottom: 30px;
+}
+.PageTwo__backgroundImg {
+  background: url("../../../assets/2_box/bg.jpg");
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+  overflow: hidden;
+}
+.PageTwo__imgLayer3copy6 {
+  position: absolute;
+  top: 100px;
+  left: 365px;
+  z-index: 2;
+
+  opacity: 0;
+
+  -webkit-animation: slideIn1 1.5s ease-in-out forwards;
+
+  animation: slideIn1 1.5s ease-in-out forwards;
+}
+.PageTwo__imgLayer3copy2 {
+  position: absolute;
+  top: 100px;
+  left: 583px;
+  z-index: 0;
+
+  opacity: 0;
+
+  -webkit-animation: slideIn2 1.5s ease-in-out forwards;
+
+  animation: slideIn2 1.5s ease-in-out forwards;
+}
+.PageTwo__imgLayer3copy4 {
+  position: absolute;
+  top: 75px;
+  left: 710px;
+  z-index: 0;
+
+  opacity: 0;
+
+  -webkit-animation: slideIn3 1.5s ease-in-out forwards;
+
+  animation: slideIn3 1.5s ease-in-out forwards;
+}
+.PageTwo__imgLayer3copy3 {
+  position: absolute;
+  top: 410px;
+  right: 0;
+  z-index: 0;
+
+  opacity: 0;
+
+  -webkit-animation: slideIn4 1.5s ease-in-out forwards;
+
+  animation: slideIn4 1.5s ease-in-out forwards;
+}
+.PageTwo__imgLayer3copy5 {
+  position: absolute;
+  top: 520px;
+  right: 0;
+  z-index: 0;
+
+  opacity: 0;
+
+  -webkit-animation: slideIn5 1.5s ease-in-out forwards;
+
+  animation: slideIn5 1.5s ease-in-out forwards;
+}
+
+.PageTwo__textBlock {
+  position: absolute;
+  top: 135px;
+  left: 70px;
+  z-index: 2;
+}
+
+.PageTwo__containerText {
+  position: absolute;
+  top: 240px;
+  left: 120px;
+  right: 130px;
+
+  width: 775px;
+  height: 445px;
+  border-radius: 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 250px #9db9c6;
+  box-shadow: 0 0 250px #9db9c6;
+  z-index: 3;
+}
+.PageTwo__containerText::-webkit-scrollbar {
+  display: none;
+}
+
+.PageTwo__scrollBar {
+  position: absolute;
+  left: 80px;
+  bottom: 85px;
+  z-index: 2;
+
+  width: 6px;
+  height: 432px;
+  border-radius: 5px;
+  background-color: #000;
+  z-index: 4;
+}
+
+/* Класс для ползунка */
+.PageTwo__scrollBar_thumb {
+  position: absolute;
+  top: -7px;
+  left: -7px;
+  width: 20px;
+  height: 104px;
+
+  background-image: url("../../../assets/2_box/btnScroll.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+}
+
+@-webkit-keyframes slideIn1 {
+  0% {
+    opacity: 0;
+    left: 405px;
+    top: 140px;
+  }
+  100% {
+    opacity: 1;
+    top: 100px;
+    left: 365px;
+  }
+}
+
+@keyframes slideIn1 {
+  0% {
+    opacity: 0;
+    left: 405px;
+    top: 140px;
+  }
+  100% {
+    opacity: 1;
+    top: 100px;
+    left: 365px;
+  }
+}
+
+@-webkit-keyframes slideIn2 {
+  0% {
+    opacity: 0;
+    top: 140px;
+    left: 623px;
+  }
+  100% {
+    opacity: 1;
+    top: 100px;
+    left: 583px;
+  }
+}
+
+@keyframes slideIn2 {
+  0% {
+    opacity: 0;
+    top: 140px;
+    left: 623px;
+  }
+  100% {
+    opacity: 1;
+    top: 100px;
+    left: 583px;
+  }
+}
+
+@-webkit-keyframes slideIn3 {
+  0% {
+    opacity: 0;
+    top: 115px;
+    left: 750px;
+  }
+  100% {
+    opacity: 1;
+    top: 75px;
+    left: 710px;
+  }
+}
+
+@keyframes slideIn3 {
+  0% {
+    opacity: 0;
+    top: 115px;
+    left: 750px;
+  }
+  100% {
+    opacity: 1;
+    top: 75px;
+    left: 710px;
+  }
+}
+
+@-webkit-keyframes slideIn4 {
+  0% {
+    opacity: 0;
+    right: -40px;
+    top: 450px;
+  }
+  100% {
+    opacity: 1;
+    right: 0;
+    top: 410px;
+  }
+}
+
+@keyframes slideIn4 {
+  0% {
+    opacity: 0;
+    right: -40px;
+    top: 450px;
+  }
+  100% {
+    opacity: 1;
+    right: 0;
+    top: 410px;
+  }
+}
+
+@-webkit-keyframes slideIn5 {
+  0% {
+    opacity: 0;
+    right: -40px;
+    top: 560px;
+  }
+  100% {
+    opacity: 1;
+    right: 0;
+    top: 520px;
+  }
+}
+
+@keyframes slideIn5 {
+  0% {
+    opacity: 0;
+    right: -40px;
+    top: 560px;
+  }
+  100% {
+    opacity: 1;
+    right: 0;
+    top: 520px;
+  }
+}

@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "Myriad Pro";
+  src: url("../../../assets/fonts/MyriadPro/MyriadPro-Light.otf") format("otf");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../../assets/fonts/Gilroy/Gilroy.ttf") format("truetype");
+  font-weight: 900;
+}
+.ModalWindow__backgroundImg {
+  background: url("../../../assets/3_box/modalWindow/Rectangle 9.png");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 3;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ModalWindow__blockText {
+  position: absolute;
+  top: 125px;
+  right: 60px;
+
+  width: 765px;
+  height: 575px;
+  background-color: #ffffff;
+  border-radius: 0 30px 30px 0;
+}
+
+.ModalWindow__imgCloss {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.ModalWindow__txt {
+  position: absolute;
+  top: 45px;
+  left: 150px;
+}
+.ModalWindow__title {
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+
+.ModalWindow__container {
+  position: absolute;
+  top: 210px;
+  left: 150px;
+
+  width: 500px;
+  height: 330px;
+}
+.ModalWindow__containerText p {
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #2e2e2e;
+  padding: 5px 0 20px;
+}
+.ModalWindow__containerText h2 {
+  font-size: 24px;
+  font-family: "Gilroy", sans-serif;
+  color: #8cc9e8;
+}
+.ModalWindow__pagination {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.ModalWindow__btn {
+  margin-right: 20px;
+}
+.ModalWindow__ellipse {
+  margin-right: 10px;
+}
+.ModalWindow__btn_next {
+  margin-left: 20px;
+}
